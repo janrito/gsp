@@ -1,0 +1,17 @@
+{
+  "name": "alejandro.giacometti.me",
+  "version": "0.1",
+  "dependencies": {
+    "jquery": null,
+    "bootstrap-sass-official": null,
+    "font-awesome": null
+  },
+  "main": "public/javascripts/main.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

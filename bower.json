@@ -3,6 +3,8 @@
   "version": "0.1",
   "dependencies": {
     "jquery": null,
+    "requirejs": null,
+    "d3": null,
     "bootstrap-sass-official": null,
     "font-awesome": null
   },

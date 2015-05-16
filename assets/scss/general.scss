@@ -1,0 +1,10 @@
+.widget {
+  @extend .well;
+  min-height: 250px;
+}
+
+#visitors {
+  .bar {
+    fill: $brand-primary;
+  }
+}

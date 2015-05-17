@@ -17,7 +17,7 @@ define([
         margin = {top: 10, right: 10, bottom: 10, left: 10};
 
       var color = d3.scale.linear()
-        .domain([12, 16, 20, 25,  32])
+        .domain([12, 15, 18, 21,  25])
         .range(["#4271ae", "#3e999f", "#718c00", "#eab700", "#c82829"]);
 
       // svg container for the chart

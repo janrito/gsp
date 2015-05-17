@@ -58,7 +58,7 @@ router.get('/visitors/:since?', function(req, res, next) {
 /* GET office temperature. */
 router.get('/temperature', function(req, res, next) {
   // generates fake temperature reading
-  var max = 32,
+  var max = 25,
     min = 15;
 
   res.json({

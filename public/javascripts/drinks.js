@@ -24,7 +24,7 @@ define([
 
       var color = d3.scale.ordinal()
         .domain([true, false])
-        .range(["#4271ae", "#c82829"]);
+        .range(["#3e999f", "#c82829"]);
 
       var pie = d3.layout.pie()
         .sort(null)

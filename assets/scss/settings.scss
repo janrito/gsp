@@ -19,14 +19,16 @@ $tm-purple-colour:          #8959a8;
 //## Gray and brand colors for use across Bootstrap.
 
 $gray-base:              $tm-foreground-colour;
+$gray-darkest:           lighten($gray-base, 5%);
 $gray-darker:            lighten($gray-base, 13.5%);
 $gray-dark:              lighten($gray-base, 20%);
 $gray:                   lighten($gray-base, 33.5%);
 $gray-light:             lighten($gray-base, 46.7%);
-$gray-lighter:           lighten($gray-base, 93.5%);
+$gray-lighter:           lighten($gray-base, 75%);
+$gray-lightest:           lighten($gray-base, 93.5%);
 
 
-$brand-primary:         $tm-red-colour;
+$brand-primary:         $tm-blue-colour;
 $brand-success:         $tm-green-colour;
 $brand-info:            $tm-blue-colour;
 $brand-warning:         $tm-orange-colour;
@@ -37,14 +39,14 @@ $brand-danger:          $tm-red-colour;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               $tm-background-colour;
+$body-bg:               $tm-foreground-colour;
 //** Global text color on `<body>`.
-$text-color:            $gray-dark;
+$text-color:            $gray-lighter;
 
 //** Global textual link color.
-$link-color:            $gray-darker;
+$link-color:            $gray-light;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      darken($link-color, 15%);
+$link-hover-color:      $gray;
 //** Link hover decoration.
 $link-hover-decoration: none;
 
@@ -60,7 +62,7 @@ $font-family-sans-serif:  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-
 $font-family-monospace:   'Adobe Source Code Pro', Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:        $font-family-sans-serif;
 
-$font-size-base:          20px;
+$font-size-base:          16px;
 // $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
 // $font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
 $font-size-smaller:       ceil(($font-size-base * .7));
@@ -81,7 +83,7 @@ $line-height-computed:    floor(($font-size-base * $line-height-base));
 $headings-font-family:  $font-family-sans-serif;
 $headings-font-weight:    400;
 // $headings-line-height:    1.1 !default;
-$headings-color:          $gray-base;
+$headings-color:          $gray-light;
 
 //== Components
 //

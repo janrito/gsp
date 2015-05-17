@@ -1,10 +1,124 @@
+h1 {
+  font-weight: 200;
+}
+
+
 .widget {
-  @extend .well;
-  min-height: 250px;
+
+  h2 {
+    border-top: 1px solid $gray-darker;
+    font-size: 1.2rem;
+    font-weight: 200;
+    line-height: 1.5rem;
+    padding-top: 1.3em;
+  }
+
+  .chart_container {
+    background-color: $gray-darkest;
+    margin-bottom: $line-height-computed;
+    min-height: 250px;
+
+    text {
+      fill: $text-color;
+      font-size: 1rem;
+      font-weight: 200;
+    }
+  }
+
+  .axis {
+
+    text {
+      fill: $tm-comment-colour;
+    }
+  }
+
 }
 
 #visitors {
+
   .bar {
+    fill: $gray-lightest;
+    fill-opacity: .6;
+  }
+
+  .title {
     fill: $brand-primary;
+    fill-opacity: .9;
+    font-size: 8rem;
+    font-weight: 800;
+    text-anchor: end;
+  }
+}
+
+#temperature {
+
+  .title {
+    font-weight: 800;
+    font-size: 12rem;
+    fill-opacity: .9;
+    text-anchor: middle;
+
+  }
+}
+
+#drinks {
+  .label {
+    fill: $gray-lightest;
+    fill-opacity: .6;
+  }
+
+  .quantity {
+    fill: $gray-lightest;
+    fill-opacity: .6;
+    font-weight: 800;
+    font-size: 1.2em;
+  }
+
+  .pie {
+    margin: 10px;
+  }
+
+  .arc {
+    fill-opacity: .7;
+  }
+}
+
+#forecast{
+
+  .condition {
+    margin-bottom: 0;
+    padding-top: .1em;
+  }
+
+  .temperature {
+    margin-top: 0;
+  }
+
+  .condition,
+  .temperature {
+
+    @extend .text-center;
+
+    font-size: 8rem;
+    font-weight: 800;
+    // line-height: 1em;
+  }
+}
+
+
+#plants{
+
+  .days {
+    @extend .text-center;
+
+    font-size: 14rem;
+    font-weight: 800;
+    opacity: .7;
+    margin-bottom: 0;
+    padding-top: .1em;
+
+    small {
+      font-size: 3rem;
+    }
   }
 }

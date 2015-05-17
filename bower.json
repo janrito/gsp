@@ -6,7 +6,8 @@
     "requirejs": null,
     "d3": null,
     "bootstrap-sass-official": null,
-    "font-awesome": null
+    "font-awesome": null,
+    "weather-icons": "~1.3.2"
   },
   "main": "public/javascripts/main.js",
   "ignore": [

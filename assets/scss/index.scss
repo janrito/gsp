@@ -10,8 +10,11 @@
 // import bootstrap
 @import '../../public/vendor/bootstrap-sass-official/assets/stylesheets/bootstrap';
 
-$fa-font-path: '../../public/vendor/font-awesome/fonts';
+$fa-font-path: '../../vendor/font-awesome/fonts';
 @import '../../public/vendor/font-awesome/scss/font-awesome';
+
+@import '../../public/vendor/weather-icons/css/weather-icons';
+@import 'weather-icons';
 
 // modules
 // @import 'functions';

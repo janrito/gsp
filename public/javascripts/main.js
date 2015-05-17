@@ -4,6 +4,10 @@ require(['config'], function (config) {
   require([
     'jquery',
     'visitors',
+    'temperature',
+    'forecast',
+    'drinks',
+    'plants'
     // 'bootstrap/transition',
     // 'bootstrap/collapse',
     // 'bootstrap/tooltip',
